@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<nmaprun scanner="nmap" args="synthetic sample">
+  <host>
+    <status state="up" />
+    <address addr="192.0.2.20" addrtype="ipv4" />
+    <hostnames><hostname name="api.example.com" type="user" /></hostnames>
+  </host>
+  <host>
+    <status state="up" />
+    <address addr="198.51.100.8" addrtype="ipv4" />
+  </host>
+  <host>
+    <status state="up" />
+    <address addr="192.0.2.9" addrtype="ipv4" />
+  </host>
+</nmaprun>

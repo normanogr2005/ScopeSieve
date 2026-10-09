@@ -1,0 +1,10 @@
+name = "Synthetic authorized assessment"
+allow = [
+  "example.com",
+  "*.example.com",
+  "192.0.2.0/24",
+]
+deny = [
+  "admin.example.com",
+  "192.0.2.9",
+]
